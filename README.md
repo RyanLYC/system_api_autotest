@@ -7,13 +7,9 @@
 - pytest-assume
 - allure-pytest
 
-## 生成测试报告
+## 安装依赖
 
-```shell
-pytest testcases/user/test_user_info.py -s --alluredir=report
-# 系统中需要安装allure
-allure serve report
-```
+pip install -r requirements.txt
 
 ## 配置
 
@@ -36,4 +32,12 @@ mysql:
   user: 用户名
 
 
+```
+
+## 生成测试报告
+
+```shell
+pytest testcases/user/test_user_info.py -s --alluredir=report
+# 系统中需要安装allure
+allure serve report
 ```
