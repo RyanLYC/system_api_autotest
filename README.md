@@ -1,5 +1,7 @@
 ## 接口自动化测试
 
+`Python + Pytest + Allure 接口自动化测试框架 + Demo + 连接mysql数据验证`
+
 - python
 - pytest
 - allure 系统中需要安装allure
