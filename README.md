@@ -6,6 +6,7 @@
 - ddddocr - 1.4.11 验证码识别
 - pytest-assume
 - allure-pytest
+- PyMySQL 数据断言
 
 ## 安装依赖
 
